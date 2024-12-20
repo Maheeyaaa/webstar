@@ -18,7 +18,7 @@ body
     background-size: 1230px;
     height: 400px;
     color: white;
-    border-radius: 110px;
+    border-radius: 5px;
 }
 *{
     padding: 0;
@@ -52,79 +52,92 @@ body
 
 .photo img
 {
+    max-width: 100%;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 111px;
     object-fit: cover;
 }
 
 #im
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #im1
 {
+    max-width: 100%;
     height: 400px;
     width: 300px;
 }
 
 #im2
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #mg
 {
+    max-width: 100%;
     height: 400px;
     width: 300px;
 }
 
 #mg1
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #mg2
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #i
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #i1
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #i2
 {
+    max-width: 100%;
     height: 400px;
     width: 300px;
 }
 
 #m
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
 
 #m1
 {
+    max-width: 100%;
     height: 400px;
     width: 300px;
 }
 #m2
 {
+    max-width: 100%;
     height: 300px;
     width: 300px;
 }
@@ -197,4 +210,55 @@ header {
 
 .social-icons a:hover {
     color: #007BFF;
+}
+
+@media (max-width: 600px)
+{
+    .logo
+    {
+        font-size: 16px;
+    }
+    .nev-links
+    {
+        font-size: 12px;
+        padding: 0.3rem 0.5rem;
+    }
+} 
+
+@media (max-width: 600px)
+{
+    .spacee
+    {
+        flex-direction: column;
+    }
+}
+
+p
+{
+    font-size: calc(1rem + 1vm);
+}
+
+h1
+{
+    font-size: calc(1rem + 1vm);
+}
+
+h2
+{
+    font-size: calc(1rem + 1vm);
+}
+
+h3
+{
+    font-size: calc(1rem + 1vm);
+}
+
+h4
+{
+    font-size: calc(1rem + 1vm);
+}
+
+h5
+{
+    font-size: calc(1rem + 1vm);
 }
